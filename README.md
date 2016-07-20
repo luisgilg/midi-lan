@@ -42,7 +42,7 @@ En el DAW tienes que activar los puertos:
 
 En el DAW se selecciona los puertos de escucha de esta forma, un puerto de entrada y otro de salida.
 
-![Daw IO](https://github.com/luisgilg/midi-lan/raw/master/images/ableton-io.png)
+![Daw IO](https://github.com/luisgilg/midi-lan/raw/master/images/ableton-io-2.png)
 
 Abrir el archivo a utilizar, dependiendo del caso, index-jazz.js / index-rt.js, en la primeras líneas configurar los puertos a utilizar y el Ip de la terminal a conectarse.
 
