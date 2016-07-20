@@ -19,7 +19,9 @@ Ejecuta la instalación con npm
 
     cd midi-lan
     npm install
-Si se tiene problemas con node-gyp se puede forzar la instalación y ejecutar la aplicación con el archivo "index-jazz.js"
+Si se tiene problemas con node-gyp se puede forzar la instalación con el comando:
+
+    npm install -f
 
 Para ejecutar la aplicación(una sola de las 2):
 
