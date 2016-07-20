@@ -34,7 +34,7 @@ Sugiero utilizar IP estática en ambas computadoras, por ejemplo la Terminal A: 
 
 Descarga loopMidi (http://www.tobias-erichsen.de/software/loopmidi.html) y crea 2 puertos en cada computadora, uno será utilizado para leer los mensajes que emite el DAW y pasarlo por red a la otra terminal, el segundo sera para mandar de vuelta al DAW los mensajes midis recibidos por la red. ej:
 
-![loopMidi Setting](https://github.com/luisgilg/midi-lan/raw/master/images/loopMidi.png)
+![loopMidi Setting](./images/loopMidi.png)
 
 En el DAW tienes que activar los puertos:
 
