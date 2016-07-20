@@ -29,7 +29,7 @@ Para ejecutar la aplicación(una sola de las 2):
 
 Sugiero utilizar IP estática en ambas computadoras, por ejemplo la Terminal A: 192.168.0.3 y la Terminal B: 192.168.0.4, el puerto por defecto es el 14123. Puede ser que en algunos casos se tenga que configurar manualmente el firewall para permitir conexiones por ese puerto.
 
-100% recomendado utilizar cable de red, NO ir por WIFI, ya que las conexiones UDP son rápidas porque no se hace comprobación de paquete (ACK) esa misma ventaja juega en contra en cuando se va por WIFI ya que si hay pérdida de datos. Lo peor que puede pasar es que no llegue nunca el mensaje MIDI que dice la una tecla se levantó y la misma quede sonando hasta la eternidad.
+100% recomendado utilizar cable de red, NO ir por WIFI, ya que las conexiones UDP son rápidas porque no se hace comprobación de paquete (ACK) esa misma ventaja juega en contra en cuando se va por WIFI ya que si hay pérdida de datos no se recuperan nunca más. Lo peor que puede pasar es que no llegue nunca el mensaje MIDI que dice la una tecla se levantó y la misma quede sonando hasta la eternidad.
 
 Descarga loopMidi (http://www.tobias-erichsen.de/software/loopmidi.html) y crea 2 puertos en cada computadora, uno será utilizado para leer los mensajes que emite el DAW y pasarlo por red a la otra terminal, el segundo sera para mandar de vuelta al DAW los mensajes midis recibidos por la red. ej:
 
