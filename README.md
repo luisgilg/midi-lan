@@ -14,11 +14,12 @@ Hay 2 archivos iniciales de la applicación, el principal es "index-rt.js" este 
 Descarga las fuentes, puede ser en zip, o con git:
 
     git clone https://github.com/luisgilg/midi-lan.git
-
-Ejecuta la instalación con npm
-
     cd midi-lan
+
+Ejecuta la instalación con npm, entrando con la consola a la carpeta del código fuente
+
     npm install
+
 Si se tiene problemas con node-gyp se puede forzar la instalación con el comando:
 
     npm install -f
