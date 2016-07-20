@@ -33,15 +33,15 @@ Sugiero utilizar IP estática en ambas computadoras, por ejemplo la Terminal A: 
 
 Descarga loopMidi (http://www.tobias-erichsen.de/software/loopmidi.html) y crea 2 puertos en cada computadora, uno será utilizado para leer los mensajes que emite el DAW y pasarlo por red a la otra terminal, el segundo sera para mandar de vuelta al DAW los mensajes midis recibidos por la red. ej:
 
-![loopMidi Setting](https://drive.google.com/file/d/0B9yDuY21InfURDFHNkp6ZHJtM1k/view?usp=sharing)
+![loopMidi Setting](https://github.com/luisgilg/midi-lan/raw/master/images/loopMidi.png)
 
 En el DAW tienes que activar los puertos:
 
-![Daw Settup](https://drive.google.com/file/d/0B9yDuY21InfUSnNrOTZrSEVheG8/view?usp=sharing)
+![Daw Settup](https://github.com/luisgilg/midi-lan/raw/master/images/ableton-midi-config.png)
 
 En el DAW se selecciona los puertos de escucha de esta forma, un puerto de entrada y otro de salida.
 
-![Daw IO](https://drive.google.com/open?id=0B9yDuY21InfUbVdlS3RoUVFCM2s)
+![Daw IO](https://github.com/luisgilg/midi-lan/raw/master/images/ableton-io.png)
 
 Abrir el archivo a utilizar, dependiendo del caso, index-jazz.js / index-rt.js, en la primeras líneas configurar los puertos a utilizar y el Ip de la terminal a conectarse.
 
@@ -53,7 +53,7 @@ Abrir el archivo a utilizar, dependiendo del caso, index-jazz.js / index-rt.js, 
 
 Para conocer el número del puerto, solo ejecuta la aplicación y leer lo que te arroja en consola:
 
-![midio io](https://drive.google.com/open?id=0B9yDuY21InfUaFMyWWVieDE3VjA)
+![midio io](https://github.com/luisgilg/midi-lan/raw/master/images/midi-io.png)
 
     C:\midi-lan-git\midi-lan>node index-rt.js
     MIDI Input devices found:
