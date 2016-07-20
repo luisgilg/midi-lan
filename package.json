@@ -1,0 +1,16 @@
+{
+  "name": "midi-lan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index-rt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dequeue": "^1.0.5",
+    "jazz-midi": "^1.5.0",
+    "midi": "^0.9.5"   
+  }
+}
