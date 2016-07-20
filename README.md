@@ -2,12 +2,13 @@
 node js application to transmit MIDI message on network with udp sockets
 
 ---
-Hay 2 archivos iniciales de la applicación, el principal es "index-rt.js" este utiliza rtMidi (https://github.com/justinlatimer/node-midi) para leer y escribir los puertos MIDI, el segundo utiliza jazz-midi (https://www.npmjs.com/package/jazz-midi) para el mismo fin, ya que rtMidi requiere compilar el codigo C++ con node-gyp en algunos casos no compila (como en mi caso, al principio).
+Hay 2 archivos iniciales de la applicación, el principal es "index-rt.js" este utiliza rtMidi (https://github.com/justinlatimer/node-midi) para leer y escribir los puertos MIDI, el segundo "index-jazz.js" utiliza jazz-midi (https://www.npmjs.com/package/jazz-midi) para el mismo fin, ya que rtMidi requiere compilar el codigo C++ con node-gyp en algunos casos no compila (como en mi caso, al principio), por eso el plan B es jazz-midi.
 
 
 ##Dependencias
-Node Js
-Node-gyp (recomendado)
+-Node Js
+
+-Node-gyp (recomendado)
 
 ## Instalación
 Descarga las fuentes, puede ser en zip, o con git:
