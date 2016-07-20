@@ -46,14 +46,13 @@ En el DAW se selecciona los puertos de escucha de esta forma, un puerto de entra
 
 Abrir el archivo a utilizar, dependiendo del caso, index-jazz.js / index-rt.js, en la primeras líneas configurar los puertos a utilizar y el Ip de la terminal a conectarse.
 
-    const defaultInMidiPort = 1;
+    const defaultInMidiPort = 1; 
     const defaultOutMidiPort = 3;
     
     const address = '192.168.0.4';
     const defaulUTPPort = 14123;
 
 Para conocer el número del puerto, solo ejecuta la aplicación y leer lo que te arroja en consola:
-
 ![midio io](https://github.com/luisgilg/midi-lan/raw/master/images/midi-io.png)
 
     C:\midi-lan-git\midi-lan>node index-rt.js
